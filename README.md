@@ -17,7 +17,7 @@ This guide assumes you already have a hacked or hackable Switch. For more inform
 To update your CFW, you need to perform the following steps:
 1. Download the latest Atmosphere ZIP and BIN files from [here](https://github.com/Atmosphere-NX/Atmosphere/releases).
 2. (Optional) Download any sigpatches you may need. You can search Google for these and just drop them onto the root of your SD card (and overwrite the existing contents).
-3. (Optional) Download the latest version of [hekate](https://github.com/CTCaer/hekate/releases). Copy the ```bootloader``` folder from this ZIP file to the root of your SD card (and overwrite the existing contents).
+3. (Optional) Download the latest version of [hekate](https://github.com/CTCaer/hekate/releases). Copy the ```bootloader``` folder from this ZIP file to the root of your SD card (and overwrite the existing contents). Copy the ```hekate_ipl.ini``` from this repo to the ```/bootloader``` folder on your SD card.
 
 ## 3. Updating your Switch's Firmware
 To update your CFW, you will need to perform the following steps:
