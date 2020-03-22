@@ -2,7 +2,7 @@
 This repository is a ground for all my Nintendo Switch guides, so that anyone can view and consume them. 
 
 ## Disclaimer
-The content in these guides is provided for informational purposes only, and I do not take any responsibilty should you damage your devices while attampting to follow any instructions on this page. Proceed at your own risk.
+The content in these guides is provided for informational purposes only, and I do not take any responsibilty should you damage your device while attempting to follow any instructions on this page. Proceed at your own risk.
 
 ## Table of Contents
 1. Overview
