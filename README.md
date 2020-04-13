@@ -60,8 +60,8 @@ To update your CFW, you will need to perform the following steps:
 Follow [this guide](https://switch.homebrew.guide/usingcfw/installnsps/installnsps-nsusbloader).
 
 ## 09. Accessing SD Card without Removing
-1. Download the [NXMTP](https://github.com/liuervehc/nxmtp/releases) Homebrew app.
-2. Launch it on the Switch while it's plugged into your PC. will then be able to access the SD card's contents as if it was plugged into the PC directly. Be aware that it will be slower though.
+1. Download the [NXMTP](https://github.com/liuervehc/nxmtp/releases) homebrew app.
+2. Launch it on the Switch while it's plugged into your PC. You will then be able to access the SD card's contents as if it was plugged into the PC directly. Be aware that it will be slower though.
 
 ## 10. Installing RetroArch
 1. Go to the [Retroarch download page](https://buildbot.libretro.com/stable/), find ```<latest version>/nintendo/switch/libnx``` and download ```RetroArch.7z```. You will need 7-Zip installed on your PC to extract this file.
