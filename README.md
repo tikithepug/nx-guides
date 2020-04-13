@@ -67,7 +67,9 @@ Follow [this guide](https://switch.homebrew.guide/usingcfw/installnsps/installns
 1. Click [HERE](https://buildbot.libretro.com/stable/) and pick the latest version, go to ```nintendo/switch/libnx``` and download ```RetroArch.7z```. You will need 7-Zip installed on your PC to extract this file.
 2. Extract the archive to the root of your SD card to install or update your copy of RetroArch (overwrite any existing file).
 3. Run Retroarch using one of two ways:
+   
    (a) Atmosphere's title takeover feature (Hold R and launch any game; keep holding R until the homebrew menu shows up). Then launch Retroarch from there.
+   
    (b) Install a [Forwarder NSP](https://mega.nz/#!WLwBAIiI!hfgcJdKA04gpmGlWc198tBba07AGUjryIYP0S8xtNJg) with Goldleaf and launch this instead. Note that the first method is recommended over this one, but I included it here for completeness.
 
 ## 11. Running Content on Retroach
