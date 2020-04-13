@@ -64,7 +64,7 @@ Follow [this guide](https://switch.homebrew.guide/usingcfw/installnsps/installns
 2. Launch it on the Switch while it's plugged into your PC. will then be able to access the SD card's contents as if it was plugged into the PC directly. Be aware that it will be slower though.
 
 ## 10. Installing RetroArch
-1. Click [HERE](https://buildbot.libretro.com/stable/) and pick the latest version, go to ```nintendo/switch/libnx``` and download ```RetroArch.7z```. You will need 7-Zip installed on your PC to extract this file.
+1. Go to the [Retroarch download page](https://buildbot.libretro.com/stable/), find ```<latest version>/nintendo/switch/libnx``` and download ```RetroArch.7z```. You will need 7-Zip installed on your PC to extract this file.
 2. Extract the archive to the root of your SD card to install or update your copy of RetroArch (overwrite any existing file).
 3. Run Retroarch using one of two ways:
    
