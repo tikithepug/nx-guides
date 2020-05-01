@@ -53,7 +53,10 @@ To update your CFW, you will need to perform the following steps:
 1. Download [ChoiDujourNX](https://switchtools.sshnuke.net)  (it's a homebrew app) and copy the NRO file from the ZIP file to the ```/switch``` folder on your SD.
 2. Find the firmware file you want from [here](https://darthsternie.net/switch-firmwares). Create a new folder in the root of your SD card named ```/firmware```. Unzip the firmware files to ```/firmware/<version>``` on your SD card.
 3. Boot up Atmosphere and go to the homebrew launcher. You can do this by holding R and selecting any installed game. Make sure to hold the R button until the homebrew launcher comes up. Then launch ChoiDujourNX (it looks like a rabbit icon).
-4. Tap on the firmware folder, then the ```<version>``` folder, then tap ```Choose``` at the bottom. Wait for it to finish. Then tap on ```<version> (exFAT)```. Wait for it to finish. Then tap on ``Select firmware``. Wait for it to finish. Then tap on ```Start installation```. Wait for it to finish.
+4. Tap on the ```firmware``` folder, then the ```<version>``` folder, then tap ```Choose``` at the bottom. Wait for it to finish.
+5. Tap on ```<version> (exFAT)```. Wait for it to finish.
+6. Tap on ``Select firmware``. Wait for it to finish.
+7. Tap on ```Start installation```. Wait for it to finish.
 5. Tap ```Reboot```, then ```Reboot now```. Profit.
 
 ## 08. Installing NSPs through USB
