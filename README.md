@@ -54,9 +54,11 @@ To update your CFW, you will need to perform the following steps:
 1. Make sure Daybreak (homebrew app) is copied to your ```/switch``` folder on your SD. This should be included in the Atmosphere zip file.
 2. Find the firmware file you want from [here](https://darthsternie.net/switch-firmwares). Create a new folder in the root of your SD card named ```/firmware```. Unzip the firmware files to ```/firmware/<version>``` on your SD card.
 3. Boot up Atmosphere and go to the homebrew launcher. You can do this by holding R and selecting any installed game. Make sure to hold the R button until the homebrew launcher comes up. Then launch Daybreak.
-4. Tap on the ```firmware``` folder, then the ```<version>``` folder, then tap ```Choose``` at the bottom. Wait for it to finish.
-5. Tap on ```<version> (exFAT)```. Wait for it to finish.
-6. Tap ```Reboot```, then ```Reboot now```. Profit.
+4. Tap on the ```firmware``` folder, then the ```<version>``` folder, then hit ```Continue```. Wait for it to validate the firmware.
+5. Once it's done, select ```Preserve Settings```.
+6. Tap ```FAT32 + exFAT```. Wait for it to finish.
+7. Tap ```Continue``` when prompted to begin update installation. Wait for it to finish.
+8. Tap ```Reboot```. Profit.
 
 ## 08. Installing NSPs through USB
 Follow [this guide](https://switch.homebrew.guide/usingcfw/installnsps/installnsps-nsusbloader).
