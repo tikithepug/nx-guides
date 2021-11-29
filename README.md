@@ -22,10 +22,10 @@ This guide assumes you already have a hacked or hackable Switch. For more inform
 
 ## 02. Booting to CFW
 1. Download [TegraRCMGUI](https://github.com/eliboa/TegraRcmGUI/releases).
-2. Download either the [hekate](https://github.com/CTCaer/hekate/releases) payload or the [fusee-primary](https://github.com/Atmosphere-NX/Atmosphere/releases) payload.
+2. Download the [fusee](https://github.com/Atmosphere-NX/Atmosphere/releases) payload.
 3. Connect your Switch via regular USB and put your Switch into RCM. Follow [this guide](https://switch.homebrew.guide/gettingstarted/checkingrcm) to do so.
-4. Open TegraRCMGUI and select either the hekate BIN file or the fusee-primary BIN file you downloaded from above. Click the ```Inject payload``` button.
-5. Your Switch should automatically boot to the Atmosphere CFW. If it does not, try to inject the other payload. If this fails also, then you will have to revisit the steps in this section and make sure all steps were followed properly.
+4. Open TegraRCMGUI and select the fusee BIN file you downloaded from above. Click the ```Inject payload``` button.
+5. Your Switch should automatically boot to the Atmosphere CFW. If it does not, you will have to revisit the steps in this section and make sure all steps were followed properly.
 
 ## 03. Configuring 90DNS
 The first thing you should do when booting CFW is to address the internet situation. You have two choices for setting up WiFi on your Switch while using CFW:
@@ -46,18 +46,17 @@ To update any Homebrew apps, you will need to copy the respective NRO file to th
 To update your CFW, you need to perform the following steps:
 1. Download the latest Atmosphere ZIP file from [here](https://github.com/Atmosphere-NX/Atmosphere/releases).
 2. (Optional) Download any sigpatches you may need. You can search Google for these and just drop them onto the root of your SD card (and overwrite the existing contents).
-3. (Optional) Download the latest version of [hekate](https://github.com/CTCaer/hekate/releases). Copy the ```bootloader``` folder from this ZIP file to the root of your SD card (and overwrite the existing contents). Copy the ```hekate_ipl.ini``` file from this repo to the ```/bootloader``` folder on your SD card.
+3. Delete the following folders from your Switch's SD card, if they exist: ```/atmosphere```, ```/bootloader```, ```/sept```
+4. Copy the contents of the zip file(s) you downloaded to your Switch's SD card and overwrite the existing contents.
 
 ## 07. Updating your Switch's Firmware
 To update your CFW, you will need to perform the following steps:
-1. Download [ChoiDujourNX](https://switchtools.sshnuke.net)  (it's a homebrew app) and copy the NRO file from the ZIP file to the ```/switch``` folder on your SD.
+1. Make sure Daybreak (homebrew app) is copied to your ```/switch``` folder on your SD. This should be included in the Atmosphere zip file.
 2. Find the firmware file you want from [here](https://darthsternie.net/switch-firmwares). Create a new folder in the root of your SD card named ```/firmware```. Unzip the firmware files to ```/firmware/<version>``` on your SD card.
 3. Boot up Atmosphere and go to the homebrew launcher. You can do this by holding R and selecting any installed game. Make sure to hold the R button until the homebrew launcher comes up. Then launch ChoiDujourNX (it looks like a rabbit icon).
 4. Tap on the ```firmware``` folder, then the ```<version>``` folder, then tap ```Choose``` at the bottom. Wait for it to finish.
 5. Tap on ```<version> (exFAT)```. Wait for it to finish.
-6. Tap on ``Select firmware``. Wait for it to finish.
-7. Tap on ```Start installation```. Wait for it to finish.
-5. Tap ```Reboot```, then ```Reboot now```. Profit.
+6. Tap ```Reboot```, then ```Reboot now```. Profit.
 
 ## 08. Installing NSPs through USB
 Follow [this guide](https://switch.homebrew.guide/usingcfw/installnsps/installnsps-nsusbloader).
