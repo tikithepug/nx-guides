@@ -16,6 +16,7 @@ The content in these guides is provided for informational purposes only, and I d
 09. Accessing SD Card Without Removing
 10. Installing RetroArch
 11. Running Content on Retroach
+12. Overclocking your Switch
 
 ## 01. Getting Started
 This guide assumes you already have a hacked or hackable Switch. For more information on performing the hack, see [this guide](https://switch.homebrew.guide/).
@@ -51,7 +52,7 @@ To update any Homebrew apps, copy the respective NRO file to either paths explai
 ## 06. Updating your CFW
 To update your CFW, you need to perform the following steps:
 1. Download the latest Atmosphere ZIP file from [here](https://github.com/Atmosphere-NX/Atmosphere/releases).
-2. Delete the following folders from your Switch's SD card, if they exist: `/atmosphere`, `/bootloader` (Keep in mind that the `/atmosphere` folder also contains cheats or mods you may have installed. If you don't want to lose those, then you can skip to step 4.)
+2. Delete the following folders from your Switch's SD card, if they exist: `/atmosphere`, `/bootloader` (Keep in mind that the `/atmosphere` folder also contains cheats or mods you may have installed. If you don't want to lose those, then you can skip to the next step.)
 3. Copy the contents of the zip file(s) you downloaded to your Switch's SD card and overwrite the existing contents.
 4. (Optional) Download any sigpatches you may need. You can search Google for these and just drop them onto the root of your SD card (and overwrite the existing contents).
 
@@ -67,7 +68,7 @@ To update your CFW, you will need to perform the following steps:
 8. Tap `Reboot`. Profit.
 
 ## 08. Installing NSPs through USB
-Follow [this guide](https://switch.homebrew.guide/usingcfw/installnsps/installnsps-nsusbloader).
+Follow [this guide](https://www.gamebrew.org/wiki/NS-USBloader_Switch).
 
 ## 09. Accessing SD Card without Removing
 1. Download the [NXMTP](https://github.com/liuervehc/nxmtp/releases) homebrew app.
@@ -84,3 +85,6 @@ Follow [this guide](https://switch.homebrew.guide/usingcfw/installnsps/installns
 
 ## 11. Running Content on Retroach
 Always use `unheadered` (or `no intro`) files for Retroarch. If you see `[!]` in the file name or the ZIP file name, this will likely not run properly in Retroarch.
+
+## 12. Overclocking your Switch
+Follow [this guide](https://github.com/retronx-team/sys-clk).
